@@ -32,7 +32,7 @@ h3{
 }
 
 .title{
-    @apply font-Poppin text-yellow-500;
+    @apply text-yellow-500;
 }
 
 /* button */
