@@ -606,6 +606,10 @@ video {
   bottom: -0px;
 }
 
+.-left-12{
+  left: -3rem;
+}
+
 .-left-5{
   left: -1.25rem;
 }
@@ -677,6 +681,10 @@ video {
 
 .mb-10{
   margin-bottom: 2.5rem;
+}
+
+.mb-20{
+  margin-bottom: 5rem;
 }
 
 .mb-40{
@@ -1276,6 +1284,14 @@ h3{
 @media (min-width: 540px){
   .md\:mb-20{
     margin-bottom: 5rem;
+  }
+
+  .md\:mb-28{
+    margin-bottom: 7rem;
+  }
+
+  .md\:w-52{
+    width: 13rem;
   }
 
   .md\:grid-cols-2{
