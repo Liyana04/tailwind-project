@@ -9,6 +9,10 @@
     <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"/>
     <!--~~~~~~~~~~~~~~~ Swiper's CSS ~~~~~~~~~~~~~~~-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./output.css">
     <title>Plant Website || TailwindCSS </title>
 </head>
@@ -367,9 +371,9 @@
           </div>
 
           <div class="container">
-            <div class="py-12">
-              <ul>
-                <li>
+            <div class="swiper py-12">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
                   <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
                     <p class="font-Poppins">
                       Lorem ipsum dolor sit amet, consectetur adipisici
@@ -381,15 +385,97 @@
                     <div class="flex items-center">
                       <img src="assets/img/review-1.jpg" alt="review_image" class="w-12 h-12 rounded-full">
                       <div class="ml-2">
-                        <p>Jenny</p>
+                        <p class="text-yellow-500 uppercase">Jenny</p>
                         <p>Designer</p>
                       </div>
-                      <i class="re-double-quotes-r"></i>
+                      <i class="re-double-quotes-r text-4xl ml-auto"></i>
+                    </div>
+
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                    <p class="font-Poppins">
+                      Lorem ipsum dolor sit amet, consectetur adipisici
+                      ng elit. Dolore eos, molestiae obcaecati ipsa del
+                      ectus voluptatibus nisi itaque exercitationem reici
+                      endis incidunt sapiente similique dicta illo esse s
+                      uscipit officia molestias cum sit.
+                    </p>
+                    <div class="flex items-center">
+                      <img src="assets/img/review-2.jpg" alt="review_image" class="w-12 h-12 rounded-full">
+                      <div class="ml-2">
+                        <p class="text-yellow-500 uppercase">John Doe</p>
+                        <p>Designer</p>
+                      </div>
+                      <i class="re-double-quotes-r text-4xl ml-auto"></i>
+                    </div>
+
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                    <p class="font-Poppins">
+                      Lorem ipsum dolor sit amet, consectetur adipisici
+                      ng elit. Dolore eos, molestiae obcaecati ipsa del
+                      ectus voluptatibus nisi itaque exercitationem reici
+                      endis incidunt sapiente similique dicta illo esse s
+                      uscipit officia molestias cum sit.
+                    </p>
+                    <div class="flex items-center">
+                      <img src="assets/img/review-3.jpg" alt="review_image" class="w-12 h-12 rounded-full">
+                      <div class="ml-2">
+                        <p class="text-yellow-500 uppercase">Sally Rasomo</p>
+                        <p>Designer</p>
+                      </div>
+                      <i class="re-double-quotes-r text-4xl ml-auto"></i>
+                    </div>
+
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                    <p class="font-Poppins">
+                      Lorem ipsum dolor sit amet, consectetur adipisici
+                      ng elit. Dolore eos, molestiae obcaecati ipsa del
+                      ectus voluptatibus nisi itaque exercitationem reici
+                      endis incidunt sapiente similique dicta illo esse s
+                      uscipit officia molestias cum sit.
+                    </p>
+                    <div class="flex items-center">
+                      <img src="assets/img/review-4.jpg" alt="review_image" class="w-12 h-12 rounded-full">
+                      <div class="ml-2">
+                        <p class="text-yellow-500 uppercase">Jenny</p>
+                        <p>Designer</p>
+                      </div>
+                      <i class="re-double-quotes-r text-4xl ml-auto"></i>
+                    </div>
+
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                    <p class="font-Poppins">
+                      Lorem ipsum dolor sit amet, consectetur adipisici
+                      ng elit. Dolore eos, molestiae obcaecati ipsa del
+                      ectus voluptatibus nisi itaque exercitationem reici
+                      endis incidunt sapiente similique dicta illo esse s
+                      uscipit officia molestias cum sit.
+                    </p>
+                    <div class="flex items-center">
+                      <img src="assets/img/review-1.jpg" alt="review_image" class="w-12 h-12 rounded-full">
+                      <div class="ml-2">
+                        <p class="text-yellow-500 uppercase">Salwa</p>
+                        <p>Designer</p>
+                      </div>
+                      <i class="re-double-quotes-r text-4xl ml-auto"></i>
                     </div>
 
                   </div>
                 </li>
               </ul>
+
+              <div class="swiper-pagination"></div>
             </div>
           </div>
         </section>
@@ -411,7 +497,7 @@
     <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
 
     <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~-->
 
     <!--~~~~~~~~~~ mainjs ~~~~~~~~~~-->

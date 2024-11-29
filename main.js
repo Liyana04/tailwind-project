@@ -22,7 +22,33 @@ navLink.forEach(link => {
 
 
 /*~~~~~~~~~~~~~~~ SWIPER ~~~~~~~~~~~~~~~*/
-
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    speed: 400,
+    spaceBetween: 30,
+    autoplay:{
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    grabCursor: true,
+    breakpoints:{
+        640:{
+            slidesPerview: 1
+        },
+        768:{
+            slidesPerview: 2
+        },
+        1024:{
+            slidesPerview: 3
+        },
+    }
+  });
 
 /*~~~~~~~~~~~~~~~ SCROLL SECTIONS ACTIVE LINK ~~~~~~~~~~~~~~~*/
 
