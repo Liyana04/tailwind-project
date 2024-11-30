@@ -646,10 +646,6 @@ video {
   bottom: 0px;
 }
 
-.bottom-1\/2{
-  bottom: 50%;
-}
-
 .bottom-4{
   bottom: 1rem;
 }
@@ -684,6 +680,14 @@ video {
 
 .top-1\/2{
   top: 50%;
+}
+
+.bottom-1\/2{
+  bottom: 50%;
+}
+
+.-bottom-4{
+  bottom: -1rem;
 }
 
 .-z-10{

@@ -19,7 +19,7 @@ navLink.forEach(link => {
 const scrollUp = () =>{
     const scrollUpBtn = document.getElementById("scroll-up")
 
-    if(this.scrolly >= 250){
+    if(this.scrollY >= 250){
         scrollUpBtn.classList.remove("-bottom-1/2")
         scrollUpBtn.classList.add("bottom-4")
     }else{
