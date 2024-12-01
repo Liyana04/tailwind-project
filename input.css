@@ -35,6 +35,10 @@ h3{
     @apply text-yellow-500;
 }
 
+.active{
+    @apply text-yellow-500;
+}
+
 .title{
     @apply text-yellow-500;
 }

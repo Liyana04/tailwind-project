@@ -1310,6 +1310,11 @@ h3{
   color: rgb(234 179 8 / var(--tw-text-opacity, 1));
 }
 
+.active{
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity, 1));
+}
+
 .title{
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity, 1));
