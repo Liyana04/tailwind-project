@@ -1,30 +1,47 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"/>
-    <!--~~~~~~~~~~~~~~~ Swiper's CSS ~~~~~~~~~~~~~~~-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./output.css">
-    <title>New tailwind Website | TailwindCSS </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"/>
+  <!--~~~~~~~~~~~~~~~ Swiper's CSS ~~~~~~~~~~~~~~~-->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="./output.css">
+  <title>New Tailwind Website | TailwindCSS </title>
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YFYPJBXME0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-YFYPJBXME0');
+  </script>
     
 </head>
 
 <body>
+<div class="container">
+  <div>
+    <h1 class="text-blue-500">Hello world</h1>
+  </div>
+  
   <div class="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
-    <img class="size-12 shrink-0" src="https://static.thenounproject.com/png/3794420-200.png" alt="ChitChat Logo" />
+    <img class="size-9 shrink-0" src="https://static.thenounproject.com/png/3794420-200.png" alt="ChitChat Logo" />
     <div>
       <div class="text-xl font-medium text-black dark:text-white">ChitChat</div>
       <p class="text-gray-500 dark:text-gray-400">You have a new message!</p>
     </div>
   </div>
+
+</div>
 </body>
 </html>
